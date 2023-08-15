@@ -15,7 +15,7 @@ spec:
       - env:
         - name: FOO
           value: BAR
-        image: quay.io/redhat-appstudio/user-workload:application-service-system-component-sample
+        image: maysunfaisal/sample-demo
         name: my-java-springboot
         resources:
           limits:
